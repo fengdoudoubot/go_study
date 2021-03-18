@@ -8,6 +8,10 @@ type Point struct {
 	y int
 }
 
+type Student struct {
+
+}
+
 func TypeJudge(items... interface{}) {
 	for index, x := range items {
 		switch x.(type) {
